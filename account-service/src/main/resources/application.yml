@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://account-db:5432/accountdb"
+    username: postgresuser
+    password: postgrespw
