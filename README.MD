@@ -1,5 +1,5 @@
 
-# Debezium Outbox pattern
+# Debezium Outbox Proof of concept
 
 Async service communication based on Outbox pattern using: Kotlin, Kafka, Debezium Kafka Connect, Spring and docker.
 
@@ -22,7 +22,7 @@ Account-service -> Db -> KConnect (Debezium) -> Kafka -> History-service
 
 ## How to run
 
-To run it you need java 8+, maven and docker
+To run it you need java 8+, maven and docker. For http calls httpie was used
 
 ```shell script
 mvn -f account-service clean install
